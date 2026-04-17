@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(201, 6, 188);
+}
+
+h1 {
+    color: #86bcff;
+}
+
+p {
+    color: rgb(245, 242, 242);
+}
+
+.warna01 {
+    color: rgb(0, 0, 0);
+}
+
+.warna02 {
+    color: rgb(43, 187, 223);
+}
+
+
+
+
+
+p {
+    font-size: 18px;
+}
+
+body {
+    font-family: Arial;
+}
+
