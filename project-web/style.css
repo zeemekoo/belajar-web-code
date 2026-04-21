@@ -1,5 +1,7 @@
 body {
-    background-color: rgb(201, 6, 188);
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+
 }
 
 .tengah {
@@ -8,52 +10,113 @@ body {
 
 
 h1 {
-    color: #e2efff;
+    color: #000000;
 }
 
+
+
+
 p {
-    color: rgb(245, 242, 242);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
 }
 
 .warna01 {
-    color: rgb(0, 0, 0);
+    color: rgb(11, 0, 0);
+    font-family: Arial;
 }
 
-.warna02 {
-    color: rgb(43, 187, 223);
-}
+
 
 
 
 .navbar {
     background-color: black;
-    padding: 10px;
+    padding: 10px 20px;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 15px;
+    gap: 15px;
+    align-items: center;
+
+
 }
 
 .navbar a {
-    color: white;
+    color: rgb(254, 254, 254);
     margin-right: 10px;
     text-decoration: none;
+    display: center;
+    margin:  0 15px;
+    transition: 0.3s;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+
+}
+
+.navbar a:hover {
+    color: yellow;
+    background-color: gray;
+}
+
+.back03 {
+    background-color: rgb(220, 35, 207);
+    padding: 5px;
+    margin: 10px;
+   
+
+
+    
 }
 
 
+.back01 {
+    background-color: rgb(220, 35, 207);
+    padding: 15px;
+    margin: 25px;
+    box-shadow: 0px 0px 10px gray;
+    display:flex;
+    justify-content: center;
+    gap: 15px;
 
-
+}
 
 .card {
-    background-color: rgb(245, 245, 245);
-    padding: 15px;
-    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0,1);
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 10px;
+
+    
+
 }
 
 
 
-
-p {
-    font-size: 18px;
+img {
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px 10px;
 }
 
-body {
-    font-family: Arial;
+
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.layout{
+    display: flex;
+    gap: 20px;
+}
